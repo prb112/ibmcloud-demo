@@ -1,3 +1,5 @@
+Creates an VPC Virtual Server Instance with multiple ssh keys
+
 terraform init -var-file=data/var.tfvars
 terraform plan -var-file=data/var.tfvars
 terraform apply -var-file=data/var.tfvars
